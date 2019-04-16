@@ -1,0 +1,17 @@
+## YAML Template.
+---
+spring:
+  application:
+    name: SAML demo
+
+server:
+  port: 9999
+
+keycloak:
+    saml-idp-url: http://localhost:8080/auth/realms/demo/protocol/saml/descriptor
+    entity-id: spring-boot-sso
+    jks-key-file: classpath:/keystore.jks
+    key-alias: spring-boot-sso
+    private-key-password: keycloak
+    store-password: keycloak
+

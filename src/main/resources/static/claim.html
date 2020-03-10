@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+    <head>
+        <title>vBank | Claim</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+              <a class="navbar-brand" href="/index.html">vBank</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <span style="margin: 20px;"></span>
+              <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="/summary.html">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Profile</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown01">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Help &amp; Support</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown01">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </li>
+                </ul>
+                <a class="btn btn-outline-warning my-2 my-sm-0" href="/saml/logout">Logout</a>
+              </div>
+        </nav>
+        <div class="container" style="margin-top: 50px;">
+<form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Digital Claim Processing</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput1">Policy Holder's Name</label>  
+  <div class="col-md-4">
+  <input id="textinput1" name="textinput1" type="text" value="Asha Moras" class="form-control input-md">
+  <span class="help-block">Full name of the policy holder</span>  
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Policy ID</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" type="text" value="HAP123035259" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Textarea -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textarea">Address of the property</label>
+  <div class="col-md-4">                     
+    <textarea class="form-control" id="textarea" name="textarea">4 Greenwod Close
+Dumfriesshire DG01 9BY</textarea>
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="selectbasic">Reason for claim</label>
+  <div class="col-md-4">
+    <select id="selectbasic" name="selectbasic" class="form-control">
+      <option value="1">Burglary and Break-in</option>
+      <option value="2">Fire accident</option>
+      <option value="3">Other damage</option>
+    </select>
+  </div>
+</div>
+
+<!-- File Button --> 
+<div class="form-group">
+  <label class="col-md-4 control-label" for="filebutton">Photo of damaged item</label>
+  <div class="col-md-4">
+    <input id="filebutton" name="filebutton" class="input-file" type="file">
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="singlebutton"></label>
+  <div class="col-md-4">
+    <a id="singlebutton" name="singlebutton" class="btn btn-primary" href="/thankyou.html">Claim</a>
+  </div>
+</div>
+
+</fieldset>
+</form>
+              
+        </div>
+        <footer class="container">
+            <p>© vBank 2019</p>
+        </footer>
+    </body>
+</html>
+

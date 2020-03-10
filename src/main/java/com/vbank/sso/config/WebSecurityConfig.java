@@ -504,6 +504,5 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter implements I
     @Override
     public void destroy() throws Exception {
         shutdown();
-    }
-
+    }   
 }
